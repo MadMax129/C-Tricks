@@ -45,7 +45,7 @@ switch (a)
             case 2:
                 printf("B is 5 and array is %d\n", arr<:0:>);
                 printf("Also Index can be used like %d\n", 0[arr]); // Instead of arr[0] you can flip it or also 0<:arr:>
-                printf("%d", printf("You can also print a word plus its length like this:"));
+                printf(" %d is the length\n", printf("You can also print a word plus its length like this:")); // Printf inside of printf
 
             break;
         }
@@ -55,7 +55,7 @@ switch (a)
     {
         printf("B not 5 and array is %d\n", arr<:0:>);
         printf("Also Index can be used like %d\n", 0[arr]); // Instead of arr[0] you can flip it or also 0<:arr:>
-        printf(" %d is the length\n", printf("You can also print a word plus its length like this:"));
+        printf(" %d is the length\n", printf("You can also print a word plus its length like this:")); // Printf inside of printf
         
 
         case 4:
