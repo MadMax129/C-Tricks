@@ -25,6 +25,7 @@ int x = 10;
 // Secret Code 
 double m[]= {7709179928849219.0, 771};
 
+// Use <: :> instead of []
 int arr <: 5 :>;
 arr<: 0 :> = 1;
 
