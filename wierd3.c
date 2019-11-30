@@ -8,6 +8,15 @@ int (* op2)[3]; // Pointer to array of three ints
 
 int get() {return 2;}
 
+
+enum Str {Hi, Bye, Ok};
+// This puts the string into the element of the enum value
+static char *table[] = { 
+	[Hi]  ="hello", // this is table[0]
+	[Bye] ="bye", // this is table[1]
+	[Ok]  ="ok"
+};
+
 int main()
 {
 	printf("==>%c\n", E);
